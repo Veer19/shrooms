@@ -8814,14 +8814,16 @@ html.rd-navbar-fixed-linked .page {
 .form-control{
 	padding-left:20px !important;
 }
-iframe {
-	box-sizing:border-box;
-	padding-right:30px;
-	width:100vw;
-}
 
 #shrooms-title{
 	font-family:'selimaregular';
 	color: #c89860;
 	font-weight:lighter !important;
+}
+@media only screen and (max-width: 768px) {
+iframe {
+	box-sizing:border-box;
+	padding-right:30px;
+	width:100vw;
+}
 }
